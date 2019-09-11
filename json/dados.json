@@ -1,0 +1,21 @@
+[
+    {
+        "usuario" : "junior",
+        "senha" : "123",
+        "cargo" : "aluno",
+        "matricula" : "1324",
+        "nome" : "João Guedes",
+        "idade" : 15,
+        "turma" : "8º A",
+        "turno" : "matutino"
+    },
+    {
+        "usuario" : "joao",
+        "senha" : "321",
+        "cargo" : "professor",
+        "matricula" : "1020",
+        "nome" : "João Guedes",
+        "idade" : 24,
+        "turno" : "matutino"
+    }
+]
