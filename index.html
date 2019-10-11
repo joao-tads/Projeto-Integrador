@@ -5,19 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/login.css" media="screen" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <title>IF Educ</title>
 </head>
 
 <body>
-    <div align="center">
-        <h1>IF Educ</h1>
-        <form class="" name="login" action="">
-            <img src="" aria-placeholder="login" name="" /><br>
-            Usuário:<br>
-            <input class="" name="usuario" type="text" /><br>
-            Senha:<br>
-            <input class="" name="senha" type="password" /><br>
-            <button class="" name="entrar">Entrar</button>
+    <div class="container">
+        <img src="img/logo.png" alt="perfil">
+        <form>
+            <input type="text" name="usuario" placeholder="Usuário"><br />
+            <br>
+            <input type="password" name="senha" placeholder="Senha"><br />
+            <br>
+            <input type="submit" name="botao" value="Entrar">
+            <input type="reset" name="reset" value="Limpar"><br />
+            <a href="#">Recuperar senha.</a>
         </form>
     </div>
     <script src="js/login.js"></script>
